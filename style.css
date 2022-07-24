@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: robot,sans-serif;
+}
+.container {
+    width: 700px;
+    max-width: 80%;
+    margin: 40px auto;
+}
+.table {
+    width: 100%;
+}
+th {
+    text-align: left;
+    padding: 10px;
+}
+td {
+    padding: 15px 10px;
+    font-size: 15px;
+    color: #777;
+}
+.sony,
+.vizio,
+.philips {
+    background-color: #eee;
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+}
+.stars-outer {
+    display: inline-block;
+    position: relative;
+    font-style: normal;
+}
+.number-rating {
+    margin-left: 15px;
+    margin-right: -15px;
+}
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.stars-inner i {
+    color: #f8c30b
+}
+/* .stars-outer::before {
+    font-family: 'Font Awesome 5 Free';
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-weight: 900;
+    color: #ccc;
+}
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    color: yellow;
+} */
+
+select {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: none;
+    background: #eee;
+}
+select option {
+    border: none;
+    padding: 5px 10px;
+}
+input {
+    width: 100%;
+    margin-top: 11px;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: #444141;
+    outline: none;
+}
